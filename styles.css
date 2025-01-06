@@ -41,7 +41,7 @@ body{
         opacity:0;
         display:flex;
         gap:20px;
-        animation: fadeIn 1.2s ease-out 11.5s forwards;
+        animation: fadeIn 1.2s ease-out 6s forwards;
     }
 
     .typewriter {
