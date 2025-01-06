@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us| Web Development Agency in Sydney</title>
+  <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+ <div class = "page-container">
+  <div class="typewriter">
+    <span id="typewriter-text"></span><span class="cursor">|</span>
+    
+    <form action="send_email.php" method="POST" action="./PHPMailer/formHandler.php">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="contactNumber">Contact Number:</label>
+          <input type="text" name="contactNumber">
+          
+          <label for="subject">Subject:</label>
+          <input type="text" name = "subject">
+          
+
+          <label for="message">Your Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+          <input class="submit" type="submit" value="Send Message">
+        </form>
+
+        
+    <pre>
+      &lt;/form&gt;
+     &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+
+    <div class = "cta_links">
+        <a href = "about.html">About Us</a>
+        <a href = "services.html">Explore Services</a>
+    </div>
+
+
+    
+  </div>
+  <script src = "script.js">
+
+  </script>
+</div>
+
+</body>
+</html>

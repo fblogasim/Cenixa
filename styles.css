@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    background-color: #1e1e1e;
+}
+      
+    .page-container{
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #1e1e1e;
+      color: #ff99e9;
+      display: flex;
+      justify-content: flex-start;
+      padding-left:50px;
+      align-items: center;
+      margin: 0;
+    }
+
+    pre{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    a{
+    	color:#ff99e9;
+    }
+    
+    @media(width < 800px){
+    	.page-container{
+            padding-left:10px;
+        }
+    }
+
+    form{
+        padding: 0;
+    }
+
+    .cta_links{
+        opacity:0;
+        display:flex;
+        gap:20px;
+        animation: fadeIn 1.2s ease-out 11.5s forwards;
+    }
+
+    .typewriter {
+      font-size: 16px;
+      white-space: pre-wrap; /* Preserve line breaks and spaces */
+      display: inline-block;
+    }
+
+    .cursor {
+      font-weight: bold;
+      font-size: 16px;
+      color: #ff99e9;
+      animation: blink 0.7s steps(1) infinite;
+    }
+
+    strong{
+        font-size: 22px;
+    }
+
+    input, textarea{
+        background-color: #1e1e1e;
+        color:#ff99e9 ;
+        height: 30px;
+        width: 300px;
+        padding: 0;
+        border:  2px solid #ff99e9;
+        margin-bottom:  5px;
+    }
+
+    textarea{
+        height: 200px;
+    }
+
+    .submit{
+        height: 30px;
+    }
+
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes fadeIn{
+    from{
+        opacity:0;    
+    }
+    to{
+        opacity:1;    
+    }
+    }
